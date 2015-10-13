@@ -27,5 +27,17 @@ public class Assignments {
 		System.out.println("c. (x + y) * 2 = " + (( x + y) * 2));
 		System.out.println("d. y % x = " + ( y % x));
 		
+		String str = "niranjan";
+		String str1 = "niranjan1";
+		String str2 = str1;
+		String str3 = new String("niranjan");
+		if(str.equals(str1))
+			System.out.println("str = str1");
+		if(str2.equals(str1))
+			System.out.println("str2 = str1");
+		if(str3.equals(str1))
+			System.out.println("str3 = str1");
+		
+		
 	}
 }
